@@ -5,12 +5,23 @@
     
 }
 
-#display{
+#displayCont{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
     width:380px;
     height: 75px;
     background-color: lightblue;
     border-radius: 5px;
     border: 1px solid black;
+    padding: 5px;
+}
+
+#display{
+    justify-content: flex-end;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
 }
 
 #buttonCont{
